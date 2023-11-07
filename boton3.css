@@ -1,0 +1,21 @@
+/*BOTON 3---------------------------------------------------------------------------------- */
+.boton3 {
+    background: linear-gradient(135deg, #FF6B6B, #FFD166);
+    color: #333;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boton3:hover {
+    background: linear-gradient(135deg, #FFD166, #FF6B6B);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,27 @@
+/*BOTON 9---------------------------------------------------------------------------------- */
+@keyframes fire {
+    0% {
+      background-color: #ff5733;
+      box-shadow: 0 0 10px 5px #ff5733;
+    }
+    50% {
+      background-color: #ff1000;
+      box-shadow: 0 0 10px 10px #ff1000;
+    }
+    100% {
+      background-color: #ff5733;
+      box-shadow: 0 0 10px 5px #ff5733;
+    }
+  }
+  
+  .boton9 {
+    animation: fire 2s infinite;
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

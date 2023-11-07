@@ -1,0 +1,17 @@
+/*BOTON 2---------------------------------------------------------------------------------- */
+.boton2 {
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.boton2:hover {
+    background: linear-gradient(to bottom, #2980b9, #3498db);
+    transform: translateY(-2px); /* Elevación al pasar el cursor */
+}

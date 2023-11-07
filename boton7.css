@@ -1,0 +1,37 @@
+/*BOTON 7---------------------------------------------------------------------------------- */
+@keyframes brillo {
+    0% {
+        background-color: #fff;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        background-color: #2b0f0faf;
+        box-shadow: 0 2px 10px rgba(255, 255, 255, 0.4);
+    }
+    100% {
+        background-color: #2b0f0f28;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.boton7 {
+    background-color: #e27777;
+    color: royalblue;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: brillo 2s linear infinite; 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boton7:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.4);
+    animation: none; 
+}

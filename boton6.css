@@ -1,0 +1,40 @@
+/*BOTON 6---------------------------------------------------------------------------------- */
+@keyframes exotico {
+    0% {
+        background-color: #FF6B6B;
+        transform: rotate(0deg);
+        box-shadow: 0 0 10px rgba(255, 107, 107, 0.7);
+    }
+    50% {
+        background-color: #FFD166;
+        transform: rotate(5deg);
+        box-shadow: 0 0 20px rgba(255, 209, 102, 0.7);
+    }
+    100% {
+        background-color: #FF6B6B;
+        transform: rotate(0deg);
+        box-shadow: 0 0 10px rgba(255, 107, 107, 0.7);
+    }
+}
+
+.boton6 {
+    background-color: #FF6B6B;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15%;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: exotico 3s linear infinite; 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boton6:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    animation: none;
+}

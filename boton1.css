@@ -1,0 +1,17 @@
+/*BOTON 1---------------------------------------------------------------------------------- */
+.boton1 {
+    background-color: transparent;
+    color: #3498db;
+    padding: 10px 20px;
+    border: 2px solid #3498db;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton1:hover {
+    color: #fff;
+    background-color: #3498db;
+    transform: scale(1.05); /* Aumento de escala al pasar el cursor */
+}
